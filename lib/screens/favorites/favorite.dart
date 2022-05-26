@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:music1/screens/favorites/favoriterefactor.dart';
 
 class favoritescreen extends StatelessWidget {
@@ -12,11 +13,11 @@ class favoritescreen extends StatelessWidget {
         title: Text(
           'Favorites',
           
-          style: TextStyle(
-              color: Color.fromARGB(255, 233, 217, 72),
-              fontWeight: FontWeight.bold,
-              fontSize: 30,
-              fontStyle: FontStyle.italic),
+        style: GoogleFonts.inter(
+            fontWeight: FontWeight.bold,
+            fontSize: 25,
+            color: Colors.white,
+          ),
         ),
         leading: Icon(Icons.line_weight_rounded,color: Colors.yellow,size: 30,),
         // actions: [Padding(

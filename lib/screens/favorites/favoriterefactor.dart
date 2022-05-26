@@ -18,7 +18,7 @@ class favrefactor extends StatelessWidget {
     Size size=MediaQuery.of(context).size;
     return Container(
      
-      color: Colors.black,
+      color: Color.fromARGB(255, 29, 28, 28),
       child: Row(
         children: [
           Padding(
